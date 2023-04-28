@@ -42,8 +42,30 @@ lb_logo.place(x=70,y=40)
 
 # titulo de la app
 titulo = Label(frame_entrada, text="Suma Enteros 1.0")
-titulo.config(bg="thistle", fg="white", font=("Arial", 16))
+titulo.config(bg="white", fg="thistle", font=("Helvetica", 20))
 titulo.place(x=240, y=10)
+
+# etiqueta para valor de x
+lb_x = Label(frame_entrada, text = "X = ")
+lb_x.config(bg="white", fg="thistle", font=("Helvetica", 18))
+lb_x.place(x=240, y=60)
+
+# caja de texto para x
+entry_x = Entry(frame_entrada)
+entry_x.config(bg="white", fg="thistle", font=("Times New Roman", 18), width=6)
+entry_x.focus_set()
+entry_x.place(x=290, y=60)
+
+# etiqueta para valor de y
+lb_x = Label(frame_entrada, text = "Y = ")
+lb_x.config(bg="white", fg="thistle", font=("Helvetica", 18))
+lb_x.place(x=240, y=120)
+
+
+# caja de texto para y
+entry_y = Entry(frame_entrada)
+entry_y.config(bg="white", fg="thistle", font=("Times New Roman", 18), width=6)
+entry_y.place(x=290, y=120)
 
 #------------------------------
 # frame operaciones
